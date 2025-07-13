@@ -1,5 +1,5 @@
 body {
-  background-color: gainsboro;
+  background-color: rgb(29, 63, 76);
   /* Use a system font, if none are available use an available sans-sarif */
   font-family: system-ui, sans-serif;
   margin: 1;
@@ -16,7 +16,29 @@ body {
 .sqr {
   width: 30%;
   aspect-ratio: 1/1;
-  border: 5px solid #ffffff;
+  border: 3px solid #1e7f9f;
   font-size: 64px;
   border-radius: 9px 9px;
+  margin: 2px;
+  background-color: #2d4593;
+  color: rgb(179, 172, 172);
+}
+
+#reset{
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+  border-radius: 7px 7px;
+  margin: auto;
+  margin-top: 25px;
+  background-color: #2a7f90;
+  font: sans-serif;
+}
+#message{
+  color: rgb(153, 57, 102);
+  border-radius: 5px 5px;
+  text-align: center;
+}
+#msg{
+  color: #1b9069;
 }
